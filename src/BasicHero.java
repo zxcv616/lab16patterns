@@ -1,3 +1,11 @@
+/**
+  * This class establishes the BasicHero implementation of Hero
+  *
+  * @author Anthony Soto
+  * @version 1.0
+  *
+  */
+
 public class BasicHero implements Hero {
     private String name;
 

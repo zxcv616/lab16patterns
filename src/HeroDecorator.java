@@ -1,3 +1,12 @@
+/**
+
+  * This class is doing creates the decorator which 'decorates' hero references
+  *
+  * @author Ivan Torriani
+  * @version 1.0
+  *
+  */
+
 public abstract class HeroDecorator implements Hero {
 
     protected Hero heroReference; //reference to an hero
