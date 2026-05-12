@@ -1,4 +1,4 @@
-public class WeatherStone {
+public class WeatherStone extends WeatherObservable {
 
     private static WeatherStone instance;
     private String currentWeather;
@@ -20,5 +20,6 @@ public class WeatherStone {
 
     public void setWeather(String newWeather) {
         currentWeather = newWeather;
+        notifyObservers(newWeather);
     }
 }
